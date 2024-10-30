@@ -50,3 +50,5 @@ AddController___Input(AxisValue * Rate * GetWorld()->GetDeltaSeconds() )
 ```
 # 3, Adding Camera and Spring Arm
 - Socket can enbale the rotate the springarm, Camera Settings -> Use Pawn Controller Rotate enables camera rotate by pawn movement
+# 4, Add Animation
+- Mesh, Animation is decided by the Skeletal.
