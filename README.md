@@ -48,3 +48,5 @@ void AShooterCharacter::LookRight(float AxisValue)
 // three directions: Roll, Pitch, Yaw, replace by "___"
 AddController___Input(AxisValue * Rate * GetWorld()->GetDeltaSeconds() )
 ```
+# 3, Adding Camera and Spring Arm
+- Socket can enbale the rotate the springarm, Camera Settings -> Use Pawn Controller Rotate enables camera rotate by pawn movement
