@@ -37,3 +37,14 @@ void AShooterCharacter::LookRight(float AxisValue)
   PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APawn::AddControllerPitchInput);
   PlayerInputComponent->BindAxis(TEXT("LookRight"), this, &APawn::AddControllerYawInput);
   ```
+# 2，creating the controller aiming
+- For Framerates and Axes
+- Mouse : 30 FPS: 10, 10, 10
+- Mouse : 60 FPS: 5, 5, 5, 5, 5, 5
+- Controller : 30 FPS: 1, 1, 1
+- Controller : 60 FPS: 1,1,1,1,1,1
+- **SOLUTION**: 
+```c++
+// three directions: Roll, Pitch, Yaw, replace by "___"
+AddController___Input(AxisValue * Rate * GetWorld()->GetDeltaSeconds() )
+```
