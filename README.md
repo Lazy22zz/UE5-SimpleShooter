@@ -52,3 +52,13 @@ AddController___Input(AxisValue * Rate * GetWorld()->GetDeltaSeconds() )
 - Socket can enbale the rotate the springarm, Camera Settings -> Use Pawn Controller Rotate enables camera rotate by pawn movement
 # 4, Add Animation
 - Mesh, Animation is decided by the Skeletal.
+# 5, Edit Collision Issue
+- Find the meshes, go to show, click the simple collision, delete the wrong one.
+# 6, Edit the Animation with BLEND
+- create a new animation blueprint
+- ![屏幕截图 2024-10-31 100319](https://github.com/user-attachments/assets/2107f022-1b7e-4185-aba5-e91770248b5f)
+# 7, 2D Blend Space
+- create a new blend space
+- ![屏幕截图 2024-10-31 104023](https://github.com/user-attachments/assets/81cd6ffd-cc22-44cf-ab25-f995a39ec5e3)
+
+
