@@ -71,6 +71,8 @@ AddController___Input(AxisValue * Rate * GetWorld()->GetDeltaSeconds() )
 - using formula : foot_speed = (y_finish - y_start) / (t_finish - t_start)
 - capcture the all info from the animation, y is the world position, (need to transform in Bone settings), t is time
 - ![屏幕截图 2024-11-01 105526](https://github.com/user-attachments/assets/e129022d-3a17-4fd4-9128-558380bb924d)
+- https://github.com/user-attachments/assets/42814f17-7ead-4df4-956d-dab2e1c92641
+
 
 
  
